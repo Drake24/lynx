@@ -5,8 +5,9 @@ namespace Drake24\Lynx;
 
 class Lynx
 {
-    public function connect()
+    public static function connect()
     {
-        return 'hello world';
+        info('Successfully connected to package');
+        return 'Successfully connected to package';
     }
 }
