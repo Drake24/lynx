@@ -1,0 +1,16 @@
+{
+    "name": "drake24/lynx",
+    "description": "Wordpress API linker",
+    "autoload": {
+        "psr-4": {
+            "Drake24\\Lynx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paolo Nikko Nunal",
+            "email": "paolo.nunal24@gmail.com"
+        }
+    ],
+    "require": {}
+}
