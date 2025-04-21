@@ -1,0 +1,17 @@
+{
+    "name": "drake24/lynx",
+    "autoload": {
+        "psr-4": {
+            "drake24\\lynx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paolo Nikko Nunal",
+            "email": "paolo.nunal24@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
