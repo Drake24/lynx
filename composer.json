@@ -12,6 +12,13 @@
             "email": "paolo.nunal24@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Drake24\\Lynx\\Providers\\LynxServiceProvider"
+            ]
+        }
+    },
     "require": {},
     "minimum-stability": "dev",
     "prefer-stable": true

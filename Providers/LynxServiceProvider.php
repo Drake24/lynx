@@ -4,7 +4,7 @@ namespace Drake24\Lynx\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class InspirationProvider extends ServiceProvider
+class LynxServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.
@@ -13,6 +13,6 @@ class InspirationProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        info('service provider booted');
     }
 }
